@@ -1,1 +1,15 @@
-# phan-mo-dau
+\section*{Mở Đầu}
+
+\begin{itemize}
+    \item \textbf{Giới thiệu hàm số lượng giác - Sự hiện diện trong tự nhiên và cuộc sống:} 
+    Khi nhắc đến hàm số lượng giác, chúng ta thường nghĩ ngay đến những tam giác vuông hay các vòng tròn tọa độ khô khan trong sách giáo khoa. Tuy nhiên, trong thế giới thực, các hàm số $\sin$ và $\cos$ là ngôn ngữ vô hình dùng để mô tả vạn vật dao động. Từ nhịp đập của trái tim, sự lên xuống của thủy triều, dòng điện xoay chiều chạy trong mạng lưới quốc gia, cho đến ánh sáng mặt trời lan truyền trong không gian – tất cả đều tuân theo quy luật của những đường cong lượng giác. Đặc biệt nhất, lượng giác chính là "bản phác thảo" toán học cốt lõi của mọi loại âm thanh mà chúng ta nghe thấy mỗi ngày.
+
+    \item \textbf{Từ âm thanh đến toán học - Sự giới hạn của góc nhìn thời gian:} 
+    Về mặt vật lý, âm thanh bản chất là sự biến thiên áp suất của các hạt không khí. Khi chúng ta ghi âm một nốt nhạc hay một câu nói, màng nhĩ của con người và micro của máy tính đều ghi nhận sự biến thiên này theo trục thời gian (Time Domain). Tuy nhiên, góc nhìn này tồn tại một giới hạn phân tích rất lớn. Nếu quan sát đồ thị của một âm thanh phức tạp (chẳng hạn như một hợp âm piano) trên trục thời gian, chúng ta sẽ chỉ thu được một mớ dữ liệu nhấp nhô, gai góc và lộn xộn. Chúng ta biết có nhiều âm thanh đang hòa quyện, nhưng góc nhìn thời gian không cho phép ta bóc tách hay nhận diện được các tần số độc lập đang cấu thành nên mớ hỗn độn ấy.
+
+    \item \textbf{Mục tiêu và phương pháp tiếp cận của dự án - Dùng lập trình để minh chứng định lý:} 
+    Để vượt qua giới hạn quan sát nói trên, dự án này tìm đến \textbf{Định lý Fourier}. Mục tiêu cốt lõi của dự án là chứng minh rằng: mọi sự hỗn độn của sóng âm thực chất chỉ là hệ quả từ sự cộng gộp của vô số các đồ thị $\sin$ và $\cos$ hoàn hảo. Về mặt phương pháp tiếp cận, thay vì chỉ giải các bài toán đại số trừu tượng trên giấy, dự án sẽ sử dụng ngôn ngữ lập trình \textbf{Python}. Bằng cách áp dụng thuật toán \textbf{Fast Fourier Transform (FFT)}, chúng tôi sẽ lập trình để máy tính đọc các tệp âm thanh thực tế, tự động bẻ gãy khối dữ liệu khổng lồ đó và trực quan hóa các hàm số lượng giác đang ẩn giấu dưới dạng các biểu đồ rõ nét. 
+
+    \item \textbf{Cảm hứng và động lực thực hiện dự án:}
+    Ý tưởng cho dự án này bắt nguồn từ một thắc mắc công nghệ rất đời thường: \textit{"Làm thế nào chiếc điện thoại có thể nhận diện được giọng nói của con người, hay làm sao một bản nhạc khổng lồ có thể được nén lại thành một tệp MP3 bé nhỏ?"}. Khi đi tìm câu trả lời, chúng tôi nhận ra chìa khóa không nằm ở những thuật toán Trí tuệ Nhân tạo xa xôi, mà lại ẩn chứa ngay trong các hàm số lượng giác $\sin$ và $\cos$ mà chúng tôi đang học trên lớp. Tuy nhiên, dường như luôn có một khoảng cách vô hình giữa những phương trình tĩnh lặng trên bảng đen và các công nghệ đang chuyển động ngoài đời thực. Do đó, dự án này ra đời như một "cây cầu" kết nối. Chúng tôi khao khát dùng Công nghệ Thông tin không chỉ để giải toán, mà để thực sự "nhìn thấy" toán học đang vận hành. Chúng tôi tin rằng, cách tốt nhất để thấu hiểu một định lý toán học không phải là học thuộc lòng, mà là lập trình để nó tự cất tiếng nói.
+\end{itemize}
